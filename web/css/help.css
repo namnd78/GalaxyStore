@@ -1,0 +1,230 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/*
+    Created on : Sep 15, 2022, 12:46:52 AM
+    Author     : NamND
+*/
+
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+/*USER*/
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+    position: relative;
+    color: #3a3a3a;
+}
+
+@media (min-width: 1400px) {
+
+    .container {
+        max-width: 1200px;
+    }
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main-wrapper .help-nav .nav{
+    flex-direction: column;
+}
+.help-nav{
+    margin: 10px 0;
+}
+.main-wrapper .help-nav .nav .nav-item{
+    position: relative;
+    overflow: hidden;
+}
+.main-wrapper .help-nav .nav .nav-item .nav-link{
+    width: 100%;
+    text-align: left;
+    transition: all 0.5s;
+}
+.main-wrapper .help-nav .nav-tabs .nav-link{
+    margin-bottom: 0;
+    border-radius:0;
+    border: none;
+}
+.main-wrapper .help-nav .nav-tabs{
+    border: none;
+}
+.main-wrapper .help-nav .nav .nav-item .nav-link.active, .main-wrapper .help-nav .nav .nav-item .nav-link:hover{
+    border: none;
+    z-index: 1;
+    position: relative;
+    background-color:#c5cada;
+}
+
+.main-wrapper .help-nav .nav .nav-item .help-fade{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background-color: #c5cada;
+    transition: all 0.5s;
+    transform: translateX(-100%);
+}
+
+.main-wrapper .help-nav .nav .nav-item:hover .help-fade{
+    transform: translateX(0);
+}
+
+.help-img-login{
+    width: 450px;
+    height: 375px;
+}
+.help-img-signup{
+    width: 400px;
+    height: 500px;
+}
+.tab-content .help-step{
+    font-weight: bold;
+}
+.help-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #cfcfc4;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+.help-page a, .help-page a:hover{
+    color: black;
+}
+.help-page:hover{
+    cursor: pointer;
+    color: black;
+    box-shadow:2px 4px 8px rgb(51 51 51 / 25%);
+}
+
+/*ADMIN*/
+
+#main .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#main .main-wrapper .help-nav .nav{
+    flex-direction: column;
+}
+.help-nav{
+    margin: 10px 0;
+}
+#main .main-wrapper .help-nav .nav .nav-item{
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#main .main-wrapper .help-nav .nav .nav-item .delete-item{
+    position: absolute;
+    height: 100%;
+    z-index: 2;
+    top: 50%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    padding: 8px 16px;
+    cursor: pointer;
+}
+#main .main-wrapper .help-nav .nav .nav-item .nav-link{
+    width: 100%;
+    text-align: left;
+    transition: all 0.5s;
+}
+#main .main-wrapper .help-nav .nav-tabs .nav-link{
+    margin-bottom: 0;
+    border-radius:0;
+    border: none;
+}
+#main .main-wrapper .help-nav .nav-tabs{
+    border: none;
+}
+#main .main-wrapper .help-nav .nav .nav-item .nav-link.active, .main-wrapper .help-nav .nav .nav-item .nav-link:hover{
+    border: none;
+    z-index: 1;
+    position: relative;
+    background-color:#c5cada;
+}
+
+#main .main-wrapper .help-nav .nav .nav-item .help-fade{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background-color: #c5cada;
+    transition: all 0.5s;
+    transform: translateX(-100%);
+}
+
+#main .main-wrapper .help-nav .nav .nav-item:hover .help-fade{
+    transform: translateX(0);
+}
+
+.help-img-login{
+    width: 450px;
+    height: 375px;
+}
+.help-img-signup{
+    width: 400px;
+    height: 500px;
+}
+.tab-content .help-step{
+    font-weight: bold;
+}
+.help-page a, .help-page a:hover{
+    color: black;
+}
+.help-page:hover{
+    cursor: pointer;
+    color: black;
+    box-shadow:2px 4px 8px rgb(51 51 51 / 25%);
+}
+#main .main-wrapper .help-nav .nav .nav-item{
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-tabs .nav-link.active:after{
+    display: none;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    color:#495057;
+}
+.delete-item{
+    position: absolute;
+    padding: 0;
+    border: none;
+    background: transparent;
+    z-index: 2;
+    top: 50%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    border-radius: 50%;
+}
+.delete-item:hover{
+    background-color: white;
+}

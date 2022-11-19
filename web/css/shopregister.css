@@ -1,0 +1,309 @@
+
+/* ----------------------------shop profile------------------- */
+
+.page-content-wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+.shop-profile-page{
+    margin-top: 16px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 9%) 0px 0.2rem 0.4rem;
+}
+
+.shop-profile-page .shop-profile-header {
+    position: relative;
+    padding: 24px;
+    padding-bottom: 0px;
+    border-bottom: none;
+}
+
+.shop-profile-header-title{
+    height: 26px;
+    margin-bottom: 6px;
+    font-size: 22px;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+}
+
+.shop-profile-page .shop-profile-body{
+    padding: 8px 24px 24px;
+
+}
+
+.shop-profile-body-header{
+    border-bottom: 3px solid #ddd;
+}
+.shop-profile-title{
+    width: 200px;
+    text-align: center;
+    padding-bottom: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.shop-profile-title:after{
+    content: "";
+    height:3px;
+    width: 100%;
+    position: absolute;
+    background: #ee4d2d;
+    bottom: -3px;
+    left: 0;
+}
+
+.shop-profile-title.active{
+    font-weight: 700;
+    color: #ee4d2d;
+}
+
+.shop-profile-body .shop-profile-body-content {
+    margin-top: 24px;
+}
+
+.register-input input{
+    background-color: #fafafa;
+    border: 1px solid #ebebeb;
+    transition: all 0.4s ease 0s;
+    border-radius: 3px;
+    margin-bottom: 13px;
+    width:700px;
+    
+}
+
+
+
+/* ----------------------------shop register------------------- */
+
+body{
+    background: #f6f6f6;
+}
+
+
+
+.shopee-form-item__reqiured {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1;
+    color: #ff4742;
+    margin-right: 5px;
+}
+
+.register-input{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#registerHead{
+    width: 400px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: black;
+    font-size: larger;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.shop-register-area {
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.shop-register-wrapper {
+    padding: 50px 60px 60px;
+    box-shadow: 0 3px 16px rgba(51, 51, 51, 0.1);
+    background: #fff;
+}
+
+.shop-register-tab-list a {
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+.shop-register-tab-list a h4 {
+    color: #333;
+    font-weight: 400;
+    margin: 0;
+}
+
+.shop-register-tab-list a.active {
+    border-bottom: 2px solid #39f;
+}
+
+.shop-register-tab-list a.active h4 {
+    color: #39f;
+}
+
+.shop-register-wrapper .tab-content {
+    padding-top: 30px;
+}
+
+.shop-register-form label {
+    font-size: 15px;
+    font-weight: 400;
+    color:black;
+}
+
+.shop-register-form input {
+    background-color: #fafafa;
+    border: 1px solid #ebebeb;
+    transition: all 0.4s ease 0s;
+    border-radius: 3px;
+    margin-bottom: 13px;
+    width:350px;
+}
+
+
+.shop-register-form input:focus {
+    border: 1px solid #266bf9;
+}
+
+.shop-register-form .button-box .shop-toggle-btn {
+    position: relative;
+    margin: 10px 0 5px 0;
+}
+
+.shop-register-form .button-box .shop-toggle-btn input {
+    margin-top: 5px;
+    bottom: 8px;
+    position: absolute;
+    height: 15px;
+    width: 25px;
+    margin: 0;
+}
+
+.shop-register-form .button-box .shop-toggle-btn span {
+    padding-left: 30px;
+}
+
+.shop-register-form .button-box .shop-toggle-btn a {
+    float: right;
+    color: #333;
+}
+
+.shop-register-form .button-box .shop-toggle-btn a:hover {
+    color: #39f;
+}
+
+.shop-register-form .button-box button {
+    color: #39f;
+    border: 1px solid #39f;
+    border-radius: 2px;
+    width: 140px;
+    height: 40px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-left: 500px;
+}
+
+.shop-register-form .button-box button i {
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.shop-register-form .button-box button:hover {
+    color: #fff;
+}
+.profile-area h6 {
+    margin: 0;
+}
+
+.profile-area input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.profile-area .card {
+    border: none;
+    box-shadow: 0 3px 16px rgba(51, 51, 51, 0.1);
+}
+
+.profile-area input[type=file] {
+    display: none;
+}
+
+.profile-area input[type=file]+label {
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #666;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: -15px;
+}
+
+.profile-area .btn.logout{
+    width: 120px;
+    height: 35px;
+    font-size: 15px;
+}
+.profile-area .btn.logout i {
+    margin-left: 5px;
+}
+input {
+    background-color: #fafafa;
+    border: 1px solid #ebebeb;
+    transition: all 0.4s ease 0s;
+    border-radius: 3px;
+    margin-bottom: 13px;
+}
+.btn {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1;
+    transition: all 0.3s ease 0s;
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #266cf9d4;
+    border-radius: 40px;
+    width: 215px;
+    height: 61px;
+    background-color: #266cf9d4;
+}
+
+.btn-2 {
+    font-size: 15px;
+    color: #39f;
+    border: 1px solid #39f;
+    background-color: #fff;
+    font-weight: 400;
+    border-radius: 2px;
+    height: 40px;
+}
+
+
+#btn-submit{
+    padding: 0;
+}
+
+.btn:focus {
+    box-shadow: none;
+    outline: 0;
+}
+
+.btn:hover,
+.btn-2:hover {
+    background: #266bf9;
+    transform: translateY(-1px);
+    border-color: #266bf9;
+    color: #fff;
+}
+
+.btn-2:hover {
+    transform: none;
+}
+

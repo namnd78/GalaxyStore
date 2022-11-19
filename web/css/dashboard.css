@@ -1,0 +1,41 @@
+
+
+.dashboard-body{
+    border-radius: 2px;
+    background-color: #fff;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%);
+    padding: 24px 24px 16px;
+    margin-bottom: 16px;
+}
+
+.main-column{
+    padding-right: 16px;
+}
+
+.to-do-box{
+    display: flex;
+    text-align: center;
+}
+
+.to-do-box-item{
+    border-right: solid #e5e5e5;
+    margin-top: 20px;
+}
+
+.to-do-box-item:hover{
+    background-color: #e5e5e5;
+}
+
+.to-do-box-item:nth-child(3n){
+    border-right: none;
+}
+
+.item-title{
+    color: blue;
+    margin-bottom: 2px;
+    padding-top: 4px;
+}
+
+.item-desc{
+    color: black;
+}

@@ -1,0 +1,6 @@
+#nav-process .container, #nav-deliver .container, #nav-receive .container{
+    max-width: inherit;
+}
+.sidebar-wrapper .menu .sidebar-link{
+    height: 46.4px;
+}
