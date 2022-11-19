@@ -1,2 +1,2 @@
-# SWP391-OnlineShop-GalaxyStore
+# Project SWP391 - GalaxyStore
  
